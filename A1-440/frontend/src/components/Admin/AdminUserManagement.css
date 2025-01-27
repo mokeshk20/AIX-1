@@ -1,0 +1,61 @@
+.admin-user-management {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.admin-user-management h1,
+.admin-user-management h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin-user-management table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.admin-user-management th,
+.admin-user-management td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.admin-user-management th {
+  background-color: #f2f2f2;
+}
+
+.admin-user-management button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.admin-user-management .error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.admin-user-management .success {
+  color: green;
+  margin-bottom: 10px;
+}
+
+.admin-user-management label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.admin-user-management input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
